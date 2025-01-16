@@ -66,6 +66,7 @@ public class UserRegistrationTest {
         Account actualAccount = objectMapper.readValue(response.body().toString(), Account.class);
         Assert.assertEquals(expectedAccount, actualAccount);
 
+
     }
 
 
